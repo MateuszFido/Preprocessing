@@ -33,15 +33,6 @@ import matplotlib.pyplot as plt
 
 st = time.time()    # log execution time
 
-'''Hardcoded data paths for debugging'''
-#
-# Windows data path: 
-# PATH = Path('C:\\Users\\drago\\OneDrive - ETH Zurich\\Kispi\\data-analysis\\test_mzml')
-#
-# MacOS data path: 
-PATH = Path('/Users/mateuszfido/OneDrive - ETH Zurich/Kispi/data-analysis/test_mzml/')
-
-
 '''Constants used for the new mz_axis'''
 MZ_MIN = 50
 MZ_MAX = 500
